@@ -25,7 +25,7 @@
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="priv" />
 
   <!-- Frameworks -->
-  <project path="frameworks/native" name="android_frameworks_native" remote="priv" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="priv" revision="10-caf" />
   <project path="frameworks/base" name="android_frameworks_base" remote="priv" />
 
   <!-- Packages -->
