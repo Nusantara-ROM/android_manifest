@@ -161,6 +161,6 @@
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="nad" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nad" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nad" />
-  <project path="vendor/pixelgapps" name="Genkzsz11/vendor_pixelgapps" remote="gitlab" revision="10" clone-depth="1" />
+  <project path="vendor/pixelgapps" name="Nusantara-ROM/vendor_pixelgapps" remote="gitlab" revision="10" clone-depth="1" />
 
 </manifest>
