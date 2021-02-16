@@ -66,6 +66,7 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/platform_testing" />
   <remove-project name="platform/tools/metalava" />
+  <remove-project name="platform/libcore" />
 
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
@@ -77,6 +78,9 @@
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/cpu_features" />
+  <remove-project name="platform/external/scudo" />
+  <remove-project name="platform/external/sqlite" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -109,6 +113,7 @@
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/SampleLocationAttribution" />
@@ -122,12 +127,14 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
@@ -140,6 +147,7 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/incremental_delivery" />
   <remove-project name="platform/system/tools/mkbootimg" />
