@@ -130,8 +130,9 @@
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
-
-  <!-- Prebuilts -->
+  <remove-project name="platform/packages/apps/PhoneCommon" />
+ 
+ <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/abi-dumps/ndk" />
