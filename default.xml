@@ -822,5 +822,6 @@
   <include name="snippets/nusantara.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/aospa.xml" />
+  <include name="snippets/lavender.xml" />
 
 </manifest>
