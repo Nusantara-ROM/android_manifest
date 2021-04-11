@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote  name="Mine"
+         fetch="https://github.com/Mocarafee"
+         />
+
+<remote  name="Edwin"
+         fetch="https://github.com/EdwinMoq"
+         />
+
+  <!--4.19 Device tree-->
+  <project path="device/xiaomi/whyred" name="NusantaraROM-Devices/device-xiaomi_whyreds" remote="ghpriv" revision="nad_11-4.19" />
+  <project path="vendor/xiaomi/whyred" name="Mocarafee/proprietary_vendor_xiaomi_" remote="ghpriv" revision="4.19" clone-depth="1" />
+  <project path="kernel/xiaomi/whyred" name="Mocarafee/kernel_whyred" remote="ghprivs" revision="Mystic-4.19" clone-depth="1" />
+  <project path="vendor/dirac" name="vendor_dirac" remote="Mine" revision="10.x" />
+
+  <!-- Remove some rom repo -->
+  <remove-project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="nad" revision="11-msm8998" />
+  <remove-project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="nad" revision="11-msm8998" />
+  <remove-project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="nad" revision="11-msm8998" />
+
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="Mine" revision="sdm660-4.19" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="Mine" revision="sdm660-4.19" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="Mine" revision="sdm660-4.19" />
+
+  <!--Addon -->
+  <project path="packages/apps/NusantaraParts" remote="priv" name="android_packages_apps_NusantaraParts" revision="4.4-11L" />
+  <project path="packages/apps/NusantaraPapers" remote="priv" name="android_packages_apps_NusantaraPapers" revision="11" />
+  <project path="packages/apps/Dirac" remote="priv" name="android_packages_apps_Dirac" revision="10" />
+  <project path="device/bloatware" remote="github" name="MocaRafee/device_bloatware" revision="whyred" />
+  <project path="vendor/MiuiCamera" remote="github" name="MocaRafee/vendor_MiuiCamera" revision="10.x" />
+</manifest>
