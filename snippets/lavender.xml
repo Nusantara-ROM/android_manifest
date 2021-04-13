@@ -19,6 +19,6 @@
   <project path="kernel/xiaomi/lavender" name="Kry9toN-Project/msm-4.19" remote="github" revision="staging" clone-depth="1" />
 
   <!-- Vendor tree -->
-  <project path="vendor/xiaomi/lavender" name="NusantaraROM-Devices/vendor_xiaomi_lavender" remote="ghpriv" revision="n/los-4.19" />
+  <project path="vendor/xiaomi/lavender" name="NusantaraROM-Devices/vendor_xiaomi_lavender" remote="ghpriv" revision="n/los-4.19" clone-depth="1" />
 
 </manifest>
