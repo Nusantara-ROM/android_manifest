@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device Tree -->
+  <project path="device/xiaomi/lavender" name="NusantaraROM-Devices/device_xiaomi_lavender" remote="ghpriv" revision="11" />
+
+  <!-- Kernel Tree -->
+  <project path="kernel/xiaomi/lavender" name="stormbreaker-project/kernel_xiaomi_lavender" remote="github" revision="oldcam-hmp" clone-depth="1" />
+
+  <!-- Vendor Tree -->
+  <project path="vendor/xiaomi/lavender" name="NusantaraROM-Devices/vendor_xiaomi_lavender" remote="ghpriv" revision="11" clone-depth="1" />
+
+</manifest>
