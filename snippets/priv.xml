@@ -34,6 +34,7 @@
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="priv" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="priv" />
   <project path="packages/apps/Dirac" name="android_packages_apps_Dirac" remote="priv" />
+  <project path="packages/apps/NusantaraParts" name="android_packages_apps_NusantaraParts" remote="priv" revision="10" />
 
   <!-- Vendor -->
   <project path="vendor/themes" name="android_vendor_themes" remote="priv" />
