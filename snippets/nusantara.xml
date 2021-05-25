@@ -110,8 +110,8 @@
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nad" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nad" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="nad" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nad" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nad" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nad" revision="11-cek"/>
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nad" revision="11-cek"/>
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="nad" />
 
   <!-- Prebuilts -->
