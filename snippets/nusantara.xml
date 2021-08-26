@@ -46,7 +46,7 @@
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="nad" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nad" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nad" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="nad" revision="11-try" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
   <project path="frameworks/libs/systemui" name="syberia-project/platform_frameworks_libs_systemui" remote="github" revision="11.0"/>
 
   <!-- Hardware -->
@@ -107,6 +107,7 @@
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="nad" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="nad" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="nad" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="nad" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="nad" />
   <project path="packages/apps/GamingMode" name="android_packages_apps_GamingMode" remote="nad" />
   <project path="packages/apps/SoftAPManager" name="Havoc-OS/android_packages_apps_SoftAPManager" remote="github" revision="eleven"/>
@@ -128,7 +129,7 @@
   <project path="prebuilts/prebuiltapks" name="android_prebuilts_prebuiltapks" remote="nad" revision="master" />
 
   <!-- Sepolicy -->
-  <project path="device/nad/sepolicy" name="android_device_nad_sepolicy" remote="nad" />
+  <project path="device/nad/sepolicy" name="android_device_nad_sepolicy" remote="nad" revision="11-ota"/>
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="nad" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nad" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="nad" />
