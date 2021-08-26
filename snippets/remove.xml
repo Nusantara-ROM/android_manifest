@@ -81,6 +81,9 @@
   <remove-project name="platform/external/cpu_features" />
   <remove-project name="platform/external/scudo" />
   <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/libpng" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -123,9 +126,11 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/apps/SpareParts" />
+  <remove-project name="platform/packages/apps/Stk" />
   <remove-project name="platform/packages/apps/Terminal" />
   <remove-project name="platform/packages/apps/Test/connectivity" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
@@ -154,6 +159,7 @@
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/incremental_delivery" />
+  <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/iorap" />
