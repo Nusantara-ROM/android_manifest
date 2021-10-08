@@ -52,6 +52,7 @@
   <project path="external/bromite-webview" name="android_external_bromite-webview" remote="nad" revision="master" />
   <project path="external/v8" name="android_external_v8" remote="nad" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="nad" />
+  <project path="external/sonivox" name="android_external_sonivox" remote="nad" />
 
   <!-- Frameworks -->
   <project path="frameworks/hardware/interfaces" name="android_frameworks_hardware_interfaces" remote="nad" />
