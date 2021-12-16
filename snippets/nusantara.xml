@@ -146,7 +146,7 @@
   <project path="system/vold" name="android_system_vold" remote="nad" />
 
   <!-- Vendor -->
-  <project path="vendor/nusantara" name="android_vendor_nusantara" remote="nad" />
+  <project path="vendor/nusantara" name="android_vendor_nusantara" remote="nad" revision="12-mc" />
   <project path="vendor/themes" name="android_vendor_themes" remote="nad" />
   <project path="vendor/lawnicons" name="ProtonAOSP/android_vendor_lawnicons" remote="github" revision="sc" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nad" />
