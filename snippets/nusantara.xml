@@ -30,8 +30,8 @@
            fetch="https://gitlab.com/" />
 
   <project path="manifest" name="android_manifest" remote="nad" revision="12.1-sm8250" />
-  <project path="art" name="android_art" remote="nad" />
-  <project path="bionic" name="android_bionic" remote="nad" />
+  <project path="art" name="android_art" remote="nad" revision="12.1-backup" />
+  <project path="bionic" name="android_bionic" remote="nad" revision="12.1-backup" />
   <project path="libcore" name="android_libcore" remote="nad" />
   <project path="build/blueprint" name="android_build_blueprint" remote="nad" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="nad" />
