@@ -173,6 +173,9 @@
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="nad" />
   <project path="system/vold" name="android_system_vold" remote="nad" />
 
+  <!-- Tools -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="nad" />
+  
   <!-- Vendor -->
   <project path="vendor/nusantara" name="android_vendor_nusantara" remote="nad" />
   <project path="vendor/themes" name="android_vendor_themes" remote="nad" />
