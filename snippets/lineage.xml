@@ -16,6 +16,7 @@
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" revision="lineage-18.1" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+  <project path="external/ntfs-3g" name="android_ntfs-3g" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" revision="lineage-18.1" />
 
   <!-- Hardware -->
@@ -46,6 +47,7 @@
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" revision="lineage-19.1-pn5xx" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage" revision="lineage-19.1-sn100x" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" revision="lineage-19.1-sn100x" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="lineage" />
