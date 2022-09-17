@@ -60,8 +60,8 @@
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="nad" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="nad" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="nad" revision="13-wip" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="nad" revision="13-wip" />
   <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="nad" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nad" />
@@ -124,11 +124,11 @@
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="nad" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="nad" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="nad" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nad" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nad" revision="13-wip" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nad" />
-  <project path="packages/apps/NusantaraWings" name="android_packages_apps_NusantaraWings" remote="nad" />
+  <project path="packages/apps/NusantaraWings" name="android_packages_apps_NusantaraWings" remote="nad" revision="13-wip" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nad" /> 
-  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="nad" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="nad" revision="13-wip" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="nad" />
   <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="nad" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="nad" />
@@ -167,7 +167,7 @@
   <!-- Vendor -->
   <project path="vendor/nusantara" name="android_vendor_nusantara" remote="nad" />
   <project path="vendor/gapps" name="arrowos-project/android_vendor_gapps" remote="gitlab" revision="arrow-13.0" />
-  <project path="vendor/themes" name="android_vendor_themes" remote="nad" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="nad" revision="13-wip" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nad" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="nad" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="nad" />
