@@ -53,6 +53,11 @@
   </project>
 
   <!-- External -->
+  <project path="external/zlib" name="android_external_zlib" remote="nad" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="nad" />
+  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="nad" />
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="nad" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="nad" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="nad" />
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />

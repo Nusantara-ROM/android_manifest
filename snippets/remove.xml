@@ -41,6 +41,11 @@
   <remove-project name="platform/bootable/recovery" />
 
   <!-- External -->
+  <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/avb" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
