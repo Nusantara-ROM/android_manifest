@@ -105,12 +105,12 @@
     <linkfile src="os_pickup_qssi_bt.bp" dest="device/qcom/qssi/Android.bp" />
   </project>
 
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="nad" revision="12-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="nad" revision="12-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="nad" revision="12-msm8998" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="nad" revision="12-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="nad" revision="12-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="nad" revision="12-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="PixelExperience/hardware_qcom-caf_msm8996_audio" revision="thirteen" remote="github" />
+  <project path="hardware/qcom-caf/msm8996/display" name="PixelExperience/hardware_qcom-caf_msm8996_display" revision="thirteen" remote="github" />
+  <project path="hardware/qcom-caf/msm8996/media" name="PixelExperience/hardware_qcom-caf_msm8996_media" revision="thirteen" remote="github" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-20.0-caf-msm8998" remote="github" />
+  <project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-20.0-caf-msm8998" remote="github" />
+  <project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-20.0-caf-msm8998" remote="github" />
   <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="13-sm8250" remote="nad" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="13-sm8250" remote="nad" />
   <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="13-sm8250" remote="nad" />
