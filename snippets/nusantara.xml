@@ -160,6 +160,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="nad" />
+  <project path="prebuilts/clang/host/linux-x86" name="NusantaraProject/prebuilts_clang_host_linux-x86" remote="gitlab" revision="13" clone-depth="1" />
 
   <!-- Sepolicy -->
   <project path="device/nad/sepolicy" name="android_device_nad_sepolicy" remote="nad" />
