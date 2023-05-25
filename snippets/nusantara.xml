@@ -53,6 +53,8 @@
   </project>
 
   <!-- External -->
+  <project path="external/cldr" name="android_external_cldr" remote="nad" />
+  <project path="external/icu" name="android_external_icu" remote="nad" />
   <project path="external/zlib" name="android_external_zlib" remote="nad" />
   <project path="external/sqlite" name="android_external_sqlite" remote="nad" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="nad" />
@@ -167,6 +169,7 @@
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr"  remote="nad" revision="13-legacy" />
 
   <!-- System -->
+  <project path="system/timezone" name="android_system_timezone" remote="nad" />
   <project path="system/core" name="android_system_core" remote="nad" />
   <project path="system/extras" name="android_system_extras" remote="nad" />
   <project path="system/libhidl" name="android_system_libhidl" remote="nad" />
