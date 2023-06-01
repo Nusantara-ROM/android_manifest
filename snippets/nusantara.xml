@@ -29,9 +29,9 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
-  <project path="manifest" name="android_manifest" remote="nad" />
-  <project path="art" name="android_art" remote="nad" />
-  <project path="bionic" name="android_bionic" remote="nad" />
+  <project path="manifest" name="android_manifest" revision="13-next" remote="nad" />
+  <project path="art" name="android_art" revision="13-next" remote="nad" />
+  <project path="bionic" name="android_bionic" revision="13-next" remote="nad" />
   <project path="libcore" name="android_libcore" remote="nad" />
   <project path="build/blueprint" name="android_build_blueprint" remote="nad" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="nad" />
@@ -47,7 +47,7 @@
     <linkfile src="tools" dest="build/tools"/>
   </project>
 
-  <project path="build/soong" name="android_build_soong" remote="nad" >
+  <project path="build/soong" name="android_build_soong" revision="13-next" remote="nad" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -68,10 +68,10 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="nad" />
+  <project path="frameworks/base" name="android_frameworks_base" revision="13-next" remote="nad" />
   <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="nad" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nad" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" revision="13-next" remote="nad" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="nad" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nad" />
 
@@ -137,9 +137,9 @@
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="nad" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nad" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nad" />
-  <project path="packages/apps/NusantaraWings" name="android_packages_apps_NusantaraWings" remote="nad" />
+  <project path="packages/apps/NusantaraWings" name="android_packages_apps_NusantaraWings" revision="13-next" remote="nad" />
   <project path="packages/apps/ParallelSpace" name="android_packages_apps_ParallelSpace" remote="nad" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nad" /> 
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" revision="13-next" remote="nad" /> 
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="nad" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="nad" />
   <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="nad" />
@@ -149,7 +149,7 @@
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nad" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="nad" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="nad" />
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="nad" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" revision="13-next" remote="nad" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="nad" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="nad" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nad" />
@@ -170,7 +170,7 @@
 
   <!-- System -->
   <project path="system/timezone" name="android_system_timezone" remote="nad" />
-  <project path="system/core" name="android_system_core" remote="nad" />
+  <project path="system/core" name="android_system_core" revision="13-next" remote="nad" />
   <project path="system/extras" name="android_system_extras" remote="nad" />
   <project path="system/libhidl" name="android_system_libhidl" remote="nad" />
   <project path="system/media" name="android_system_media" remote="nad" />
@@ -182,7 +182,7 @@
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="nad" />
 
   <!-- Vendor -->
-  <project path="vendor/nusantara" name="android_vendor_nusantara" remote="nad" />
+  <project path="vendor/nusantara" name="android_vendor_nusantara" revision="13-next" remote="nad" />
   <project path="vendor/themes" name="android_vendor_themes" remote="nad" />
   <project path="vendor/gapps" name="NusantaraProject/vendor_google_gms" remote="gitlab" revision="13" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nad" />
