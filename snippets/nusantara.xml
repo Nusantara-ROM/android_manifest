@@ -69,7 +69,7 @@
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="nad" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
+  <project path="frameworks/av" name="android_frameworks_av" revision="13-next" remote="nad" />
   <project path="frameworks/base" name="android_frameworks_base" revision="13-next" remote="nad" />
   <project path="frameworks/native" name="android_frameworks_native" revision="13-next" remote="nad" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="nad" />
