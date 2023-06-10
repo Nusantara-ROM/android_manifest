@@ -157,7 +157,7 @@
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="nad" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nad" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nad" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nad" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" revision="13-next" remote="nad" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="nad" />
 
   <!-- Prebuilts -->
