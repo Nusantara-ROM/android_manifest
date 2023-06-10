@@ -41,6 +41,8 @@
   <remove-project name="platform/bootable/recovery" />
 
   <!-- External -->
+  <remove-project name="platform/external/rust/cxx" />
+  <remove-project name="platform/external/rust/crates/ring" />
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/libfuse" />
   <remove-project name="platform/external/cldr" />
@@ -102,6 +104,7 @@
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <remove-project name="platform/prebuilts/rust" />
 
   <!-- System -->
   <remove-project name="platform/system/netd" />
