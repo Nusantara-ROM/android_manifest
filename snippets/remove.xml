@@ -59,6 +59,8 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zstd" />
+  <remove-project name="platform/external/protobuf" />
+  <remove-project name="platform/external/elfutils" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -107,6 +109,10 @@
   <remove-project name="platform/prebuilts/rust" />
 
   <!-- System -->
+  <remove-project name="platform/system/apex" />
+  <remove-project name="platform/system/linkerconfig" />
+  <remove-project name="platform/system/logging" />
+  <remove-project name="platform/external/libpng" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/timezone" />
   <remove-project name="platform/system/core" />
